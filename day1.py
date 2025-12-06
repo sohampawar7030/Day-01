@@ -1,9 +1,11 @@
+import sys
+
 print("hello World")
 print("hello soham ")
 
+# Read numbers from command-line arguments
+num1 = int(sys.argv[1])
+num2 = int(sys.argv[2])
 
-num1 = int(input("Enter the First No :"))
-num2 = int(input("Enter the Second No:"))
-add = num1+num2
-
-print(add)
+add = num1 + num2
+print("Addition:", add)
